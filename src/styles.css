@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-green: #015761;
+  --color-white: #ffffff;
+  --color-yellow: #f7dc4f;
+  --color-black: #000000;
+} /* You can add global styles to this file, and also import other style files */
+
+/* GENERAL PROPERTIES */
+html,
+body {
+  font-family: "Baloo Chettan 2", cursive;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+.bg-green {
+  background-color: var(--color-green);
+}
+
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.bg-yellow {
+  background-color: var(--color-yellow);
+}
+
+.bg-black {
+  background-color: var(--color-black);
+}
+.text-green {
+  color: var(--color-green);
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+.text-yellow {
+  color: var(--color-yellow);
+}
+
+.text-black {
+  color: var(--color-black);
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mr-3 {
+  margin-right: 16px;
+}
+
+.pt-3 {
+  padding-top: 16px;
+}
+
+.text-big {
+  font-size: 8rem;
+}
+
+.title-bold {
+  font-weight: 500;
+}
